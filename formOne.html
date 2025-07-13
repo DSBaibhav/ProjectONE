@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <h1>Event Registrations</h1>
+        <h2>Please fill the form below:</h2>
+        <label for="Name">Name:</label>
+        <input type="text" id="Name" name="Name" placeholder="Enter your name">
+        <br>
+        <br>
+        <label for="EmailId">Email:</label>
+        <input type="email" id="EmailId" name="Email"placeholder="Enter your email">
+        <br>
+        <br>
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="Phone" placeholder="Enter your phone number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+        <br>
+        <br>
+        <label for="Occupation">Occupation:</label>
+        <br> 
+        <select name="Occupation" id="Occupation">
+            <option value="Student">Student</option>
+            <option value="Professional">Professional</option>
+            <option value="Other">Other</option>
+        </select>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Topics of Interest:</legend>
+            <input type="checkbox" id="HTML" name="topic" value="Technology">
+            <label for="HTML">HTML</label>
+            <br>
+            <input type="checkbox" id="CSS" name="topic" value="Design">
+            <label for="CSS">CSS</label>
+            <br>
+            <input type="checkbox" id="JavaScript" name="topic" value="Programming">
+            <label for="JavaScript">JavaScript</label>
+            <br> 
+        </fieldset>
+        <br>
+        <label for="comments">Comments:</label>
+        <br>
+        <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+         <button type="submit">Register</button> 
+    </form>
+
+</body>
+</html>
